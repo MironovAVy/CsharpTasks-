@@ -10,11 +10,12 @@ int value_a = Prompt("Введите число");
 Random rnd = new Random();
 int p = rnd.Next();
 int b =  rnd.Next();
-if (p % value_a  == 0 && b % value_a  == 0 )
+while (p % value_a  == 0 && b % value_a  == 0 )
 {
-System.Console.WriteLine($"Число {p} и {b} делиться на {value_a}");
+System.Console.WriteLine($"Число {p} и {b} делиться на {value_a} без остатка");
 }
-else
+while (p % value_a  != 0 && b % value_a  != 0 )
 {
-    System.Console.WriteLine($"Числа {p} и {b} не кратные {value_a}");
+System.Console.WriteLine($"Число {p} и {b} не деляться на {value_a} на цело ");
+break;
 }
