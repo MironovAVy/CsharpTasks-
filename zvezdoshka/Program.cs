@@ -18,4 +18,3 @@ else
 {
     System.Console.WriteLine($"Числа {p} и {b} не кратные {value_a}");
 }
-
