@@ -16,6 +16,6 @@ System.Console.WriteLine($"Число {p} и {b} делиться на {value_a}
 }
 while (p % value_a  != 0 && b % value_a  != 0 )
 {
-System.Console.WriteLine($"Число {p} и {b} не деляться на {value_a} на цело ");
+System.Console.WriteLine($"Числа {p} и {b} не деляться на {value_a} на цело ");
 break;
 }
