@@ -10,8 +10,10 @@ int value_a = Prompt("Введите число");
 Random rnd = new Random();
 int p = rnd.Next();
 int b =  rnd.Next();
-while (p % value_a  != 0 && b % value_a  != 0 )
+int z = rnd.Next();
+int y =  rnd.Next();
+while (p % value_a  != 0 && b % value_a  != 0 && z % value_a  != 0 && y % value_a  != 0 )
 {
-System.Console.WriteLine($"Числа {p} и {b} не деляться на {value_a} на цело ");
+System.Console.WriteLine($"Числа {p}, {b} , {z}, {y} не деляться на {value_a} на цело ");
 break;
 }
