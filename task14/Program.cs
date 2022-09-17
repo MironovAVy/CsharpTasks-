@@ -8,10 +8,6 @@ string? seriesOfNumbers = Console.ReadLine();
 
 seriesOfNumbers = seriesOfNumbers + ",";    // дополнительня запятая для обозначения конца строки
 
-
-
-
-
 // функция  создания и заполнения массива из строки
 int[] ArrayOfNumbers(string seriesNew){ 
 
